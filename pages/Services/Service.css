@@ -1,0 +1,4 @@
+.equal-height-image {
+    height: 15rem; 
+    object-fit: cover; 
+}

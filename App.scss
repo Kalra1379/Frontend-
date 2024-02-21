@@ -1,0 +1,42 @@
+// @import '~bootstrap/scss/bootstrap';
+// @import './assets/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap');
+@import './assets/scss/bootstrap.scss';
+@import './assets/css/style.css';
+
+.notification-success {
+    background-color: #46344E !important;
+}
+
+.btn.btn-link:focus {
+    box-shadow: none;
+}
+
+.carousel-caption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker__input-container>.form-control {
+    height: calc(3.5rem + 2px);
+    padding: 1rem 0.75rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: var(--dark);
+    border: 15px solid var(--dark);
+    border-radius: 50px;
+    height: 4rem;
+    width: 4rem;
+}
+
+.facts-overlay h1 {
+    -webkit-text-stroke: 2px #8D9297;
+}
